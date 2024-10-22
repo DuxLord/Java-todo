@@ -1,10 +1,10 @@
-package net.gacame.MULTIHILO;
+package net.gacame.MULTIHILO.basic;
 
 public class MultiplierThreadsJoin extends Thread {
     public static void main(String[] args) {
 
-        Thread[] threads = new Thread[1000000];
-        for (int i = 0; i < 1000000; i++) {
+        Thread[] threads = new Thread[10];
+        for (int i = 0; i < 10; i++) {
             threads[i] = new MultiplierThreadsJoin();
             threads[i].start();
 

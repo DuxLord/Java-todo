@@ -1,4 +1,4 @@
-package net.gacame.MULTIHILO;
+package net.gacame.MULTIHILO.ampl;
 
 //class BankAccountSynchronized {
 //    private int balance;
@@ -162,7 +162,7 @@ class BankThreadSpend extends Thread {
     }
 }
 
-public class Main {
+public class Banco01 {
     public static void main(String[] args) {
         BankAccountSynchronized account = new BankAccountSynchronized(1000);
 

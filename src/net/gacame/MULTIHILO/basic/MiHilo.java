@@ -1,4 +1,4 @@
-package net.gacame.MULTIHILO;
+package net.gacame.MULTIHILO.basic;
 
 public class MiHilo extends Thread {
     @Override

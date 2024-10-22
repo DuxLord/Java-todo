@@ -1,4 +1,4 @@
-package net.gacame.MULTIHILO;
+package net.gacame.MULTIHILO.ampl;
 
 class Hilo extends Thread {
     public Hilo() {

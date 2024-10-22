@@ -1,4 +1,4 @@
-package net.gacame.MULTIHILO;
+package net.gacame.MULTIHILO.basic;
 
 public class HilosMultiplicadores extends Thread {
     int num;
